@@ -5,7 +5,7 @@ pipeline {
         stage ('Cloning Git Repo') {
             steps {
                 sh 'rm -rf /var/lib/jenkins/workspace/pipeline3/hello-world/'
-                sh 'git clone https://github.com/ravdy/hello-world.git'
+                sh 'git clone https://github.com/hemanthreddy0407/hello-world.git'
             }
         }
         stage ('Excuting Maven Builds') {
